@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>商品页面</title>
+    <meta content="initial-scale=1.0,user-scalable=no,minimum-scale=1,maximum-scale=1,width=device-width,minimal-ui" name="viewport">
+    <link rel="stylesheet" type="text/css" href="./css样式/iconfont/iconfont.css"/>
+    <style>
+        *{
+            padding:0;
+            margin: 0;
+        }
+        .one {
+            /*position: absolute;*/
+            width: 375px;
+            height: 375px;
+            overflow: hidden;
+        }
+        .one_cantent img {
+            width: 375px;
+            height: 375px;
+            float: left;
+        }
+        .one_cantent {
+            width: 1875px;
+            height: 375px;
+            position: absolute;
+            left: 0;
+            animation-name: move;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes move {
+            0% {
+                left: 0;
+            }
+            25% {
+                left: -375px;
+            }
+            50% {
+                left: -750px;
+            }
+            75% {
+                left: -1125px;
+            }
+            100% {
+                left: -1500px
+            }
+        }
+        #price{
+            width: 375px;
+            height: 67.98px;
+            background-image: url("https://h2a.appsimg.com/b.appsimg.com/upload/momin/2019/11/27/192/1574833392213.jpg!85.webp;");
+            position: relative;
+            font-family: PingFang-SC-Regular,Helvetica Neue,Helvetica,microsoft yahei,sans-serif;
+            color: white;
+
+        }
+        #price1{
+            position: absolute;
+            /*border: 0.1px black solid;*/
+            width: 195.77px;
+            height: 25px;
+            top: 11.49px;
+            left:25px;
+
+
+        }
+        #price2{
+            position: absolute;
+            width: 195.77px;
+            height: 14px;
+            /*border: 0.1px black solid;*/
+            bottom: 11.49px;
+            left:25px;
+        }
+        #introduction{
+            width: 375px;
+            height: 46px;
+            /*margin: 15px 15px 15px 15px;*/
+            /*border: 1px red  solid;*/
+        }
+        #introduction1{
+            width: 345px;
+            height: 16px;
+            padding:15px 15px 15px 15px;
+            /*border:0.1px black solid;*/
+        }
+
+        #size{
+            width: 375px;
+            height: 105px;
+            padding:12px 0 20px;
+            margin-top: 8px;
+
+        }
+        .size2{
+            width:94px;
+            height: 30px;
+            border: solid 1px #e7e7e7;
+            display: inline-block;
+            padding: 0 5px;
+            margin: 13px 0 0 12px;
+        }
+        #address{
+            width: 345px;
+            height: 20px;
+            padding: 20px 15px;
+        }
+        #address1{
+            width: 345px;
+            height: 30px;
+            padding: 10px 15px;
+        }
+        #trend{
+            width: 345px;
+            height: 193px;
+            padding: 20px 15px 5px;
+
+        }
+        #title{
+             width: 345px;
+             height: 19px;
+             padding:18px 15px;
+             /*border:0.1px black solid;*/
+         }
+        #promise{
+            width: 335px;
+            height: 85.4px;
+            padding:20px;
+            /*border:0.1px black solid;*/
+        }
+        .model{
+            width:375px;
+            height: 562.5px;
+        }
+        #bottom{
+            width: 375px;
+            height: 50px;
+            background-color: #e7e7e7;
+            display: table-cell;
+            text-align: center;
+            vertical-align:middle;
+        }
+        .wuyong{
+            width: 375px;
+            height: 500px;
+            /*border: 1px red solid;*/
+
+        }
+    </style>
+</head>
+<body>
+    <div class="one">
+        <div class="one_cantent">
+            <img src="https://h2a.appsimg.com/a.appsimg.com/upload/merchandise/pdcvis/2019/09/25/79/1cbb0fd4-056d-4de8-beae-3d09b47e66a6_720x909_70.jpg!85.webp">
+            <img src="https://h2a.appsimg.com/a.appsimg.com/upload/merchandise/pdcvis/2019/09/25/122/5d3ebb06-2564-44e8-a001-028b1d4799a8_720x909_70.jpg!85.webp">
+            <img src="https://h2a.appsimg.com/a.appsimg.com/upload/merchandise/pdcvis/2019/09/25/160/a9944a5a-18ac-4f65-b6b5-168a58725509_720x909_70.jpg!85.webp">
+            <img src="https://h2a.appsimg.com/a.appsimg.com/upload/merchandise/pdcvis/2019/09/25/52/13deb608-b689-473a-b5ce-c75c211d8feb_720x909_70.jpg!85.webp">
+            <img src="https://h2a.appsimg.com/a.appsimg.com/upload/merchandise/pdcvis/2019/09/25/183/49581806-9b3f-43e0-be72-b3d6acb09f61_720x909_70.jpg!85.webp">
+        </div>
+    </div>
+    <div id="price">
+        <div id="price1"><span style="font-size: 12px;padding-right: 8px">店庆价</span><span style="font-size: 20px">¥780</span><span style="font-size: 12px;padding-left: 8px;opacity:0.6;text-decoration: line-through">¥2299</span></div>
+        <div id="price2"><span style="font-size: 14px;padding-right: 8px">唯品价¥1149，活动已降¥369</span></div>
+    </div>
+    <div id="introduction"><div id="introduction1"><span style="font-size: 13.9999px">今典 | 女款潮流时尚设计束腰提花连衣裙礼服</span></div></div>
+    <div style="background-color: #e7e7e7;height: 5px;"></div>
+    <div id="size">
+        <div id="size1"><span style="float: left;padding-left: 15px">尺码</span><span style="float: right;padding-right: 15px">查看尺码表</span><div style="clear:left"></div></div>
+        <div class="size2"><span>S</span></div>
+        <div class="size2"><a href="支付页面.html"><span>M</span></a></div>
+        <div class="size2"><span>L</span></div>
+        <div class="size2"><span>XL</span></div>
+        <div class="size2"><span>XXL</span></div>
+        <div class="size2"><span>XXXL</span></div>
+    </div>
+    <div style="background-color: #e7e7e7;height: 5px"></div>
+    <div id="address"><div><b>配送至</b><span>&nbsp;&nbsp;天津市和平区体育馆街道</span></div></div>
+    <div style="background-color: #e7e7e7;height: 3px"></div>
+    <div id="address1"><div><b>运费</b><span>&nbsp;&nbsp;新会员专享首单38元免邮</span></div></div>
+    <div style="background-color: #e7e7e7;height: 4px"></div>
+    <div id="trend"><div><p>价格趋势</p><img src="IMG/trend2.png"></div></div>
+    <div style="background-color: #e7e7e7;height: 4px"></div>
+    <div id="title"><strong style="font-size: 10px">图文详情</strong></div>
+    <div id="promise"><img style="width: 335px;height: 85.4px;" src="https://h2a.appsimg.com/b.appsimg.com/2017/08/11/161/1502443448261.png!85.webp"></div>
+    <div><img class="model" src="https://h2a.appsimg.com/a.appsimg.com/upload/merchandise/pdcvis/2019/09/25/105/c1dc32b3-9e8c-49ce-9995-9d1b6df2e8ca.jpg!85.webp"></div>
+    <div><img class="model" src="https://h2a.appsimg.com/a.appsimg.com/upload/merchandise/pdcvis/2019/09/25/42/99229d2c-c067-4007-9ab9-35078c9c7aaa.jpg!85.webp"></div>
+    <div><img class="model" src="https://h2a.appsimg.com/a.appsimg.com/upload/merchandise/pdcvis/2019/09/25/91/f4febc11-b2d3-469b-b9dc-64543592ba80.jpg!85.webp"></div>
+    <div id="bottom"><span>--已经到底了，再往上逛逛吧--</span></div>
+    <div class="wuyong"></div>
+
+</body>
+</html>
